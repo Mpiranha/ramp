@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="container-fluid h-100">
+    <div class="container-fluid clear-gutters">
         <div class="d-flex">
             <div class="h-100 sidebar-wrap-fix clear-gutters">
                 <div class="sidebar">
@@ -58,8 +58,8 @@
                         </div>
                         <div class="collapse navbar-collapse" id="collapsibleNavbar">
                             <ul class="navbar-nav flex-column">
-                               <li class="nav-item">
-                                   <a class="nav-link" href="dashboard.php"><i class="fas fa-columns dash"></i> <span
+                                <li class="nav-item">
+                                    <a class="nav-link" href="dashboard.php"><i class="fas fa-columns dash"></i> <span
                                             class="home">Dashboard</span></a>
                                 </li>
                                 <li class="nav-item">
@@ -122,14 +122,16 @@
 
                                         </div>
                                         <center>
-                                                <p class="category"> <h4 style="color:green; font-family: cursive;">Thank you for contacting our support team! We'll get back to you shortly. </h4> </p>
-                                            </center>
+                                            <p class="category">
+                                                <h4 style="color:green; font-family: cursive;">Thank you for contacting
+                                                    our support team! We'll get back to you shortly. </h4>
+                                            </p>
+                                        </center>
                                         <div class="row mt-5">
-                                           
-                                           <div class="form-group col-md-6">
+
+                                            <div class="form-group col-md-6">
                                                 <label for="username" class="userAccount">Full Name</label>
-                                                <input type="text" id="username" name="name" size="35"
-                                                    class="c-field">
+                                                <input type="text" id="username" name="name" size="35" class="c-field">
                                             </div>
 
                                             <div class="form-group col-md-6">
@@ -142,8 +144,8 @@
                                                 <input type="text" class="c-field" name="subject" placeholder="Subject">
                                             </div>
                                             <div class="form-group col-md-12">
-                                                <textarea class="c-field form-rounded" name="message" rows="5" id="comment"
-                                                    placeholder="Message"></textarea>
+                                                <textarea class="c-field form-rounded" name="message" rows="5"
+                                                    id="comment" placeholder="Message"></textarea>
                                             </div>
 
                                         </div>
@@ -161,10 +163,91 @@
 
                     </div>
                 </div>
+                <footer class="footer-distributed py-5 mt-5">
+                    <li class="container-fluid px-5">
+                        <div class="row justify-content-around">
+                            <div class="col-12 col-md-4">
+
+                                <div class="d-flex logo-wrap">
+                                    <img class="logo" src="assets/img/logo.svg" alt="logo">
+                                    <div class="navbar-brand">
+                                        COPYRAMP
+                                    </div>
+                                </div>
+
+                                <ul class="nav py-4">
+                                    <li class="nav-item"><a class="nav-link" href="https://www.copyramp.com">Home</a>
+                                    </li>·
+                                    <li class="nav-item"><a class="nav-link" href="privacy.php">Privacy Policy</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="terms-use.php"> Terms of services</a>
+                                    </li>
+
+                                    <li class="nav-item"><a class="nav-link" href="contact-us.php">Contact us</a></li>
+
+                                    <!-- <li class="nav-item"><a class="nav-link" href="#">Faq</a></li>
+            
+                                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li> -->
+                                </ul>
+
+                                <p class="footer-company-name text-light pl-3">© 2019 <a href="https://www.copyramp.com"
+                                        style="color: white;">CopyRamp</a> </p>
+                            </div>
+
+                            <div class="col-12 col-md-4 text-light py-4 pl-md-5">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item my-3">
+                                        <!-- <i class="fa fa-map-marker mr-3"></i>
+                                        <span>21 Revolution Street</span> Paris, France
+            
+                                    </li> -->
+
+                                    <li class="nav-item my-3">
+                                        <!--  <i class="fa fa-phone mr-3"></i> -->
+                                        Support
+                                    </li>
+
+                                    <li class="nav-item my-3">
+                                        <i class="fa fa-envelope mr-3"></i>
+                                        <a class="text-light"
+                                            href="mailto:support@copyramp.com">support@copyramp.com</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                            <!--  <div class="col-12 col-md-2">
+            
+                                <p class="footer-company-about text-light">
+                                    <span>About the company</span>
+                                    Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu
+                                    auctor lacus
+                                    vehicula sit amet.
+            
+            
+                                    <ul class="nav">
+            
+                                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-twitter"></i></a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-linkedin"></i></a></li>
+            
+            
+                                    </ul>
+                                </p>
+                            </div> -->
+                        </div>
+
+
+
+
+                </footer>
             </div>
         </div>
 
     </div>
+
+
 
     <script src="lib/jquery/jquery.min.js"></script>
     <script src="lib/bootstrap/js/popper.min.js"></script>

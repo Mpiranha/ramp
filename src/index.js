@@ -43,18 +43,18 @@ $(function () {
 
 
 
-    // $(window).on('scroll', function () {
-    //     var margin = $('.flex-grow-1 .container').height() - $('.top-nav').height();
-    //     if ($('body').scrollTop() >= margin) {
-    //         $(".top-nav").css({
-    //             'background-color': '#ffffff',
-    //             'box-shadow': '-1px 0px 9px -2px #808080e5'
-    //         });
-    //     } else {
-    //         $(".top-nav").css('background-color', 'transparent');
-    //     }
+    var header = jQuery(".top-nav");
+    var headerScroll = "header-scrolled";
 
-    //     console.log(margin);
-    // });
+    jQuery('body').scroll(function () {
+        if (jQuery(this).scrollTop() > 0) {
+
+            header.addClass(headerScroll);
+
+        } else {
+
+            header.removeClass(headerScroll);
+        }
+    });
 
 });

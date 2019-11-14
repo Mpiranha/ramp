@@ -110,7 +110,7 @@ else{
                 </div>
 
             </div>
-            <div class="flex-grow-1 column-2">
+            <div class="flex-grow-1">
                 <div class="container">
                     <nav class="navbar navbar-expand-sm px-5 top-nav">
                         <button class="d-none navbar-toggler" id="btn-open-nav" type="button"
@@ -122,7 +122,7 @@ else{
                             <i class="fas fa-bars text-dark"></i>
                         </button>
                         <div class="home">
-                            USER DASHBOARD &#187;
+                            USER DASHBOARD
                         </div>
 
                         <!--  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
@@ -191,6 +191,7 @@ else{
                                                     <?php echo htmlentities($bgl);?></div>Saved Letters
                                             </div>
                                         </div>
+                                        <br> <br> <br> <br> <br> <br>
                                         <div class="col-12">
                                             <div class="py-5">
                                                 <div class="d-flex flex-column video-wrap text-center">
@@ -217,15 +218,15 @@ else{
                             <div class="col-12 col-lg-6">
                                 <div class="top-niche">
                                     <div class="setion-title-wrap">
-                                        <h3 class="title text-right">
+                                        <h3 class="title text-md-right">
                                             Top 6 Niches
                                         </h3>
-                                        <h6 class="text-muted sub-title text-right">
+                                        <h6 class="text-muted sub-title text-md-right">
                                             Here is the top 6 most viewed niches.
                                         </h6>
                                     </div>
-                                    <div class="row top-niches">
-                                        <div class="col-6 col-md-4 col-xl-4">
+                                    <div class="row top-niches justify-content-center">
+                                        <div class="col-12 col-md-4 col-xl-4">
                                             <div
                                                 class="niche-box text-center d-flex rounded flex-column justify-content-end">
                                                 <span class="niche-icon">
@@ -245,7 +246,7 @@ else{
                                             </div>
 
                                         </div>
-                                        <div class="col-6 col-md-4 col-xl-4">
+                                        <div class="col-12 col-md-4 col-xl-4">
                                             <div
                                                 class="niche-box text-center d-flex rounded flex-column justify-content-end">
                                                 <span class="niche-icon">
@@ -264,7 +265,7 @@ else{
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-6 col-md-4 col-xl-4">
+                                        <div class="col-12 col-md-4 col-xl-4">
                                             <div
                                                 class="niche-box text-center d-flex rounded flex-column justify-content-end">
                                                 <span class="niche-icon">
@@ -282,7 +283,7 @@ else{
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-6 col-md-4 col-xl-4">
+                                        <div class="col-12 col-md-4 col-xl-4">
                                             <div
                                                 class="niche-box text-center d-flex rounded flex-column justify-content-end">
                                                 <span class="niche-icon">
@@ -301,7 +302,7 @@ else{
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-6 col-md-4 col-xl-4">
+                                        <div class="col-12 col-md-4 col-xl-4">
                                             <div
                                                 class="niche-box text-center d-flex rounded flex-column justify-content-end">
                                                 <span class="niche-icon">
@@ -319,7 +320,7 @@ else{
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-6 col-md-4 col-xl-4">
+                                        <div class="col-12 col-md-4 col-xl-4">
                                             <div
                                                 class="niche-box text-center d-flex rounded flex-column justify-content-end">
                                                 <span class="niche-icon">
@@ -339,7 +340,7 @@ else{
                                     </div>
 
                                 </div>
-
+                                <br> <br> <br> <br> <br> <br>
                                 <div class="col-12">
                                     <div class="dashboard-table py-5">
                                         <div class="table-title">
@@ -502,85 +503,90 @@ else{
                         </div>
                     </div>
                 </div>
+                <footer class="footer-distributed py-5 mt-5">
+                    <li class="container-fluid px-5">
+                        <div class="row justify-content-around">
+                            <div class="col-12 col-md-4">
+
+                                <div class="d-flex logo-wrap">
+                                    <img class="logo" src="assets/img/logo.svg" alt="logo">
+                                    <div class="navbar-brand">
+                                        COPYRAMP
+                                    </div>
+                                </div>
+
+                                <ul class="nav py-4">
+                                    <li class="nav-item"><a class="nav-link" href="https://www.copyramp.com">Home</a>
+                                    </li>·
+                                    <li class="nav-item"><a class="nav-link" href="privacy.php">Privacy Policy</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="terms-use.php"> Terms of services</a>
+                                    </li>
+
+                                    <li class="nav-item"><a class="nav-link" href="contact-us.php">Contact us</a></li>
+
+                                    <!-- <li class="nav-item"><a class="nav-link" href="#">Faq</a></li>
+            
+                                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li> -->
+                                </ul>
+
+                                <p class="footer-company-name text-light pl-3">© 2019 <a href="https://www.copyramp.com"
+                                        style="color: white;">CopyRamp</a> </p>
+                            </div>
+
+                            <div class="col-12 col-md-4 text-light py-4 pl-md-5">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item my-3">
+                                        <!-- <i class="fa fa-map-marker mr-3"></i>
+                                        <span>21 Revolution Street</span> Paris, France
+            
+                                    </li> -->
+
+                                    <li class="nav-item my-3">
+                                        <!--  <i class="fa fa-phone mr-3"></i> -->
+                                        Support
+                                    </li>
+
+                                    <li class="nav-item my-3">
+                                        <i class="fa fa-envelope mr-3"></i>
+                                        <a class="text-light"
+                                            href="mailto:support@copyramp.com">support@copyramp.com</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                            <!--  <div class="col-12 col-md-2">
+            
+                                <p class="footer-company-about text-light">
+                                    <span>About the company</span>
+                                    Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu
+                                    auctor lacus
+                                    vehicula sit amet.
+            
+            
+                                    <ul class="nav">
+            
+                                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-twitter"></i></a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-linkedin"></i></a></li>
+            
+            
+                                    </ul>
+                                </p>
+                            </div> -->
+                        </div>
+
+
+
+
+                </footer>
             </div>
         </div>
     </div>
 
-    <footer class="footer-distributed py-5">
-        <li class="container-fluid px-5">
-            <div class="row justify-content-around">
-                <div class="col-12 col-md-4">
 
-                    <div class="d-flex logo-wrap">
-                        <img class="logo" src="assets/img/logo.svg" alt="logo">
-                        <div class="navbar-brand">
-                            COPYRAMP
-                        </div>
-                    </div>
-
-                    <ul class="nav py-4">
-                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>·
-                        <li class="nav-item"><a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
-
-                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-
-                        <li class="nav-item"><a class="nav-link" href="#">Faq</a></li>
-
-                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                    </ul>
-
-                    <p class="footer-company-name text-light pl-3">Company Name © 2019</p>
-                </div>
-
-                <div class="col-12 col-md-4 text-light py-4 pl-md-5">
-                    <ul class="nav flex-column">
-                        <li class="nav-item my-3">
-                            <i class="fa fa-map-marker mr-3"></i>
-                            <span>21 Revolution Street</span> Paris, France
-
-                        </li>
-
-                        <li class="nav-item my-3">
-                            <i class="fa fa-phone mr-3"></i>
-                            +1 555 123456
-                        </li>
-
-                        <li class="nav-item my-3">
-                            <i class="fa fa-envelope mr-3"></i>
-                            <a class="text-light" href="mailto:support@company.com">support@company.com</a>
-                        </li>
-                    </ul>
-
-                </div>
-
-                <div class="col-12 col-md-2">
-
-                    <p class="footer-company-about text-light">
-                        <span>About the company</span>
-                        Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu
-                        auctor lacus
-                        vehicula sit amet.
-
-
-                        <ul class="nav">
-
-                            <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-linkedin"></i></a></li>
-
-
-                        </ul>
-                    </p>
-                </div>
-            </div>
-
-
-
-
-    </footer>
 
     </div>
 
