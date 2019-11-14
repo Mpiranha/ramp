@@ -51,9 +51,12 @@
                             <div class="navbar-brand">
                                 COPYRAMP
                             </div>
-                            <button class="navbar-toggler navbar-tog-custom" id="btn-close-nav" type="button"
-                                data-target="#collapsibleNavbar">
+                            <button class="d-none d-lg-block navbar-toggler navbar-tog-custom" id="btn-close-nav"
+                                type="button" data-target="#collapsibleNavbar">
                                 <i class="fas fa-bars"></i>
+                            </button>
+                            <button type="button" class="close-btn mx-0" aria-label="Close">
+                                <span class="text-light" aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div class="collapse navbar-collapse" id="collapsibleNavbar">
@@ -91,7 +94,11 @@
             <div class="flex-grow-1">
                 <div class="container">
                     <nav class="navbar navbar-expand-sm px-5 top-nav">
-                        <button class="d-none navbar-toggler" id="btn-open-nav" type="button"
+                    <button class="d-none navbar-toggler" id="btn-open-nav" type="button"
+                            data-target="#collapsibleNavbar">
+                            <i class="fas fa-bars text-dark"></i>
+                        </button>
+                        <button class="navbar-sm-toggler" id="btn-sm-open-nav" type="button"
                             data-target="#collapsibleNavbar">
                             <i class="fas fa-bars text-dark"></i>
                         </button>

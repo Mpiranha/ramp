@@ -160,7 +160,7 @@ if(isset($_POST['change']))
         <div class="d-flex">
             <div class="h-100 sidebar-wrap-fix clear-gutters">
                 <div class="sidebar">
-                    <nav class="d-none navbar flex-column navbar-expand-sm navbar-light navbar-collapsed">
+                    <nav class="d-none navbar flex-column navbar-expand navbar-light navbar-collapsed">
                         <div class="d-flex logo-wrap">
                             <img class="logo" src="assets/img/logo.svg" alt="logo">
 
@@ -189,7 +189,7 @@ if(isset($_POST['change']))
                             </ul>
                         </div>
                     </nav>
-                    <nav class="d-none navbar flex-column navbar-expand-md navbar-light nav-open show-flex">
+                    <nav class="d-none navbar flex-column navbar-expand navbar-light nav-open show-flex">
                         <div class="d-flex logo-wrap">
                             <img class="logo" src="assets/img/logo.svg" alt="logo">
                             <div class="navbar-brand">
