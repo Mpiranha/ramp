@@ -94,7 +94,7 @@
             <div class="flex-grow-1">
                 <div class="container">
                     <nav class="navbar navbar-expand-sm px-5 top-nav">
-                    <button class="d-none navbar-toggler" id="btn-open-nav" type="button"
+                        <button class="d-none navbar-toggler" id="btn-open-nav" type="button"
                             data-target="#collapsibleNavbar">
                             <i class="fas fa-bars text-dark"></i>
                         </button>
